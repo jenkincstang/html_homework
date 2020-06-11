@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body {
+			font-family: "Times New Roman", Times, serif;
+		}
+		.first-label {
+			width:85px;
+		  display: inline-block;
+		}
+		.second-label {
+			width:200px;
+		  display: inline-block;
+		}
+		.second-input {
+			width:150px;
+		  display: inline-block;
+		}
+		.second-span {
+			width:46px;
+		  display: inline-block;
+		}
+		.third-label {
+			width:75px;
+		  display: inline-block;
+		}
+		.fourth-label {
+			width:178px;
+		  display: inline-block;
+		}
+		.fourth-span {
+			width:16px;
+		  display: inline-block;
+		}
+		.fourth-input {
+			width:150px;
+		  display: inline-block;
+		}
+		.fifth-label {
+			width:50px;
+		  display: inline-block;
+		}
+		.sixth-label {
+			width:150px;
+		  display: inline-block;
+		}
+		.text-area {
+			margin-left: 10px;
+		}
+		.div-margin-left {
+			margin-left: 10px;
+		}
+		
+		.div-vertical-align {
+		    display: table-cell;
+		    vertical-align: middle;
+		    height: 50px;
+		    border: 1px solid red;
+		}
+		.button-margin-top {
+			margin-top: 10px;
+		}
+
+	</style>
+</head>
+<body>
+<div>
+	<form>
+		<h1>Unified Modeling Language Theory Test</h1>
+		<div class="div-margin-left">
+			<label class="first-label">Test Subject:</label>
+			<label class="second-label">Unified Modeling Language</label>
+			<label class="third-label">Time:</label>
+			<label class="fourth-label">100 minute</label>
+			<label>Score:</label>
+			<label class="sixth-label">100</label>
+		</div><br/>
+		<div class="div-margin-left">
+			<label class="first-label">Class:</label>
+			<select class="second-input">
+				<option selected>Class1</option>
+				<option>Class2</option>
+				<option>Class3</option>
+			</select>
+			<span class="second-span"></span>
+			<label class="third-label">Student ID:</label>
+			<input type="text" id="studentId" name="studentId" class="fourth-input" value="001">
+			<span class="fourth-span"></span>
+			<label>Name:</label>
+			<input type="text" id="studentName" name="studentName" value="Darcy" class="sixth-label">
+		</div>
+		<div>
+			<h2>
+				1、Fill in the blanks(5 points per space, 20 points total)
+			</h2>
+			<div class="div-margin-left">
+				<label>
+					1.The full name of UML in Chinese is:
+				</label>
+				<input type="text" name="umlName" value="Unified Modeling anguage">
+			</div>
+			<div class="div-margin-left">
+				<label>
+					2.The most prominent feature of the object is:
+				</label>
+				<input type="text" name="" value="Encapsulation">
+				<input type="text" name="" value="Inheritance">
+				<input type="text" name="" value="Polymorphism">
+			</div>
+		</div>
+		<div>
+			<h2>2、Multiple choice question(10 points per space, 20 points total)</h2>
+			<div class="div-margin-left">
+				<div>
+					<p>
+						1.The relationship between UML and software engineering is:
+					</p>
+				</div>
+				<div class="div-margin-left">
+					<label><input type="radio" name="uml" value="">(A)UML is software engineering</label><br/>
+					<label><input type="radio" name="uml" value="" checked="">(B)UML is participates in several stages of the software development process in software engineering</label><br/>
+					<label><input type="radio" name="uml" value="">(C)UML has nothing to do with software engineering</label><br/>
+					<label><input type="radio" name="uml" value="">(D)UML is part of software engineering</label>
+				</div>
+			</div>
+
+			<div class="div-margin-left">
+				<div>
+					<p>
+						2.Java language supports:
+					</p>
+				</div>
+				<div class="div-margin-left">
+					<label><input type="radio" name="java" value="" checked="">(A)Single inheritance</label><br/>
+					<label><input type="radio" name="java" value="" >(B)Multiple inheritance</label><br/>
+					<label><input type="radio" name="java" value="">(C)Single inheritance and multiple inheritance support</label><br/>
+					<label><input type="radio" name="java" value="">(D)Single inheritance and multiple inheritance are not supported</label>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h2>3、Multiple choice(10 points per space, 20 points total)</h2>
+			<div class="div-margin-left">
+				<div>
+					<p>
+						1.The granularity of use case is devided into the following three:
+					</p>
+				</div>
+				<div class="div-margin-left">
+					<label><input type="checkbox" name="use_case" value="" checked="">(A)Overview level</label><br/>
+					<label><input type="checkbox" name="use_case" value="" checked="">(B)Demand level</label><br/>
+					<label><input type="checkbox" name="use_case" value="">(C)User target level</label><br/>
+					<label><input type="checkbox" name="use_case" value="" checked="">(D)Sub-function level</label>
+				</div>
+			</div>
+
+			<div class="div-margin-left">
+				<div>
+					<p>
+						2.The class diagram consists of which of the following three parts:
+					</p>
+				</div>
+				<div class="div-margin-left">
+					<label><input type="checkbox" name="class_diagram" value="" checked="">(A)Name</label><br/>
+					<label><input type="checkbox" name="class_diagram" value="" checked="">(B)Attribute</label><br/>
+					<label><input type="checkbox" name="class_diagram" value="" checked="">(C)Operation</label><br/>
+					<label><input type="checkbox" name="class_diagram" value="">(D)Function</label>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h2>
+				4、True or False(10 points per space, 20 points total)
+			</h2>
+			<div class="div-margin-left">
+				<div>
+					<label>1.Use case diagram are only used to communicate with customers to determine demand.</label>
+					<label><input type="radio" name="true_false" value="true_value">√</label>
+					<label><input type="radio" name="true_false" value="false_value" checked="">×</label>
+				</div>
+				<div>
+					<label>2.In the state diagram, the termination state allows any numbers of multiples in a state diagram.</label>
+					<label><input type="radio" name="state_true_false" value="true_value" checked="">√</label>
+					<label><input type="radio" name="state_true_false" value="false_value">×</label>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h2>
+				5、Short answer question(20 points per space, 20 points total)
+			</h2>
+			<div class="div-margin-left">
+				<div>
+					<p>1.Briefly describe what the model is and how it behaves?</p>
+				</div>
+				<div>
+					<textarea name="textarea" rows="8" cols="90" class="text-area">
+						A model is a simplification and abstract of the real world. A model is an expression of the system, process,thing or concept of research. Can be physical entity;can be a certain graphic;or a mathematical expression.
+					</textarea>
+				</div>
+			</div>
+		</div>
+		<div class="button-margin-top">
+			<button type="submit" value="Submit">Calculating score</button>
+		</div>
+		
+	</form>
+</div>
+</body>
+</html>
